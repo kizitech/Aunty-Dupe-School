@@ -9,12 +9,12 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-red-50 to-red-100 py-20">
+      <section className="bg-gradient-to-r from-red-50 to-red-100 py-10 md:py-20">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="bg-red-600 text-white mb-4">40+ Years of Educational Excellence</Badge>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-[1.3] mb-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-[1.3] md:leading-[1.4] mb-6">
                 Where Young Minds Flourish and Dreams Take Flight
               </h2>
               <p className="text-base sm:text-xl text-gray-700 mb-8">
@@ -40,15 +40,15 @@ export default function HomePage() {
               </div>
               <div className="mt-8 grid grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-red-600">5,000+</div>
+                  <div className="text-2xl md:text-3xl font-bold text-red-600">5,000+</div>
                   <div className="text-sm text-gray-600">Alumni Worldwide</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-red-600">40</div>
+                  <div className="text-2xl md:text-3xl font-bold text-red-600">40</div>
                   <div className="text-sm text-gray-600">Years of Excellence</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-red-600">25</div>
+                  <div className="text-2xl md:text-3xl font-bold text-red-600">25</div>
                   <div className="text-sm text-gray-600">Graduations</div>
                 </div>
               </div>
