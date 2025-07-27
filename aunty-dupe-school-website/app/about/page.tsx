@@ -7,12 +7,12 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20">
+      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-10 md:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <Badge className="bg-blue-600 text-white mb-4">About Us</Badge>
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">Four Decades of Educational Excellence</h1>
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Four Decades of Educational Excellence</h1>
+            <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto">
               Founded in 1985 by Evangelist Chief Mrs. Phebean Modupe Ogunsusi, Aunty Dupe Nursery and Primary School
               has been transforming lives and building futures for 40 years.
             </p>
@@ -21,12 +21,12 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story */}
-      <section className="py-20 bg-white">
+      <section className="py-10 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="bg-green-100 text-green-800 mb-4">Our Story</Badge>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">From Vision to Reality</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">From Vision to Reality</h2>
               <p className="text-gray-700 mb-6">
                 The story of Aunty Dupe Nursery and Primary School began with a simple yet profound concern for the
                 quality of education available to children in Ile-Oluji, Ondo State. What started as a response to
@@ -37,7 +37,7 @@ export default function AboutPage() {
                 beacon of educational excellence, having nurtured over 5,000 young minds who are now scattered across
                 the globe, making significant contributions in their various fields.
               </p>
-              <div className="bg-blue-50 p-6 rounded-lg">
+              <div className="bg-blue-50 p-4 md:p-6 rounded-lg">
                 <h3 className="font-semibold text-blue-900 mb-2">Our Mission</h3>
                 <p className="text-blue-800">
                   To provide exceptional foundational education that develops the intellectual, moral, social, and
@@ -59,17 +59,17 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-purple-100 text-purple-800 mb-4">Leadership Team</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Experienced Educational Leaders</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Experienced Educational Leaders</h2>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Our leadership team brings decades of educational experience and unwavering commitment to student success.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 max-w-5xl mx-auto gap-4 md:gap-8">
             <Card className="text-center">
               <CardHeader>
                 <div className="mx-auto mb-4">
@@ -78,7 +78,7 @@ export default function AboutPage() {
                     alt="Proprietress"
                     width={150}
                     height={150}
-                    className="rounded-full mx-auto"
+                    className="rounded-full mx-auto min-h-56 border object-cover"
                   />
                 </div>
                 <CardTitle className="text-lg">Evangelist Chief Mrs. Phebean Modupe Ogunsusi</CardTitle>
@@ -100,7 +100,7 @@ export default function AboutPage() {
                     alt="Head Teacher"
                     width={150}
                     height={150}
-                    className="rounded-full mx-auto"
+                    className="rounded-full mx-auto min-h-56 border object-cover"
                   />
                 </div>
                 <CardTitle className="text-lg">Mrs. Akintunde Abimbola</CardTitle>
@@ -122,7 +122,7 @@ export default function AboutPage() {
                     alt="Academic Coordinator"
                     width={150}
                     height={150}
-                    className="rounded-full mx-auto"
+                    className="rounded-full mx-auto min-h-56 border object-cover"
                   />
                 </div>
                 <CardTitle className="text-lg">Academic Leadership Team</CardTitle>
@@ -144,7 +144,7 @@ export default function AboutPage() {
                     alt="Senior Teacher"
                     width={150}
                     height={150}
-                    className="rounded-full mx-auto"
+                    className="rounded-full mx-auto min-h-56 border object-cover"
                   />
                 </div>
                 <CardTitle className="text-lg">Senior Teaching Staff</CardTitle>
