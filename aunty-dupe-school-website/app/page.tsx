@@ -59,12 +59,12 @@ export default function HomePage() {
                 alt="Aerial view of Aunty Dupe School"
                 width={600}
                 height={400}
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg shadow-2xl border-4 border-red-600 mx-auto"
               />
-              <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
+              <div className="absolute -bottom-6 -left-[-8%] bg-white p-4 rounded-lg shadow-lg">
                 <div className="flex items-center space-x-2">
-                  <Trophy className="h-6 w-6 text-yellow-500" />
-                  <span className="font-semibold">Award-Winning Institution</span>
+                  <Trophy className="h-4 w-4 md:h-6 md:w-6 text-yellow-500" />
+                  <span className="text-sm md:text-base font-medium md:font-semibold">Award-Winning Institution</span>
                 </div>
               </div>
             </div>
