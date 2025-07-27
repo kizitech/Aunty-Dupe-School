@@ -166,8 +166,8 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-red-100 text-red-800 mb-4">Our Values</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Guiding Principles</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Guiding Principles</h2>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Our core values shape every aspect of our educational approach and school culture.
             </p>
           </div>
@@ -255,44 +255,44 @@ export default function AboutPage() {
       </section>
 
       {/* Achievements Overview */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-16">
             <Badge className="bg-yellow-100 text-yellow-800 mb-4">Our Impact</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">40 Years of Success</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">40 Years of Success</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-red-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="h-10 w-10 text-red-600" />
+              <div className="bg-red-100 w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mx-auto mb-2 md:mb-4">
+                <Users className="h-6 w-6 md:h-10 md:w-10 text-red-600" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-2">5,000+</div>
-              <div className="text-gray-600">Alumni Worldwide</div>
+              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-1 md:mb-2">5,000+</div>
+              <div className="text-gray-600 text-sm md:text-base">Alumni Worldwide</div>
             </div>
 
             <div className="text-center">
-              <div className="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="h-10 w-10 text-blue-600" />
+              <div className="bg-blue-100 w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mx-auto mb-2 md:mb-4">
+                <Award className="h-6 w-6 md:h-10 md:w-10 text-blue-600" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-2">100+</div>
-              <div className="text-gray-600">Awards & Recognition</div>
+              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-1 md:mb-2">100+</div>
+              <div className="text-gray-600 text-sm md:text-base">Awards & Recognition</div>
             </div>
 
             <div className="text-center">
-              <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <BookOpen className="h-10 w-10 text-green-600" />
+              <div className="bg-green-100 w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mx-auto mb-2 md:mb-4">
+                <BookOpen className="h-6 w-6 md:h-10 md:w-10 text-green-600" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-2">25</div>
-              <div className="text-gray-600">Graduation Sets</div>
+              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-1 md:mb-2">25</div>
+              <div className="text-gray-600 text-sm md:text-base">Graduation Sets</div>
             </div>
 
             <div className="text-center">
-              <div className="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="h-10 w-10 text-purple-600" />
+              <div className="bg-purple-100 w-16 h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center mx-auto mb-2 md:mb-4">
+                <Heart className="h-6 w-6 md:h-10 md:w-10 text-purple-600" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-2">40</div>
-              <div className="text-gray-600">Years of Excellence</div>
+              <div className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-1 md:mb-2">40</div>
+              <div className="text-gray-600 text-sm md:text-base">Years of Excellence</div>
             </div>
           </div>
         </div>
