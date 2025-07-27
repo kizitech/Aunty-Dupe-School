@@ -86,7 +86,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-sm">
-                  Visionary founder with over 40 years of educational leadership. Former Federal Inspector of Education
+                  Visionary founder with over 40+ years of educational leadership. Former Federal Inspector of Education
                   and Principal of Federal Science and Technical College.
                 </p>
               </CardContent>

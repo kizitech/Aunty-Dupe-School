@@ -13,18 +13,18 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="bg-red-600 text-white mb-4">40 Years of Educational Excellence</Badge>
-              <h2 className="text-5xl font-bold text-gray-900 mb-6">
+              <Badge className="bg-red-600 text-white mb-4">40+ Years of Educational Excellence</Badge>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-[1.3] mb-6">
                 Where Young Minds Flourish and Dreams Take Flight
               </h2>
-              <p className="text-xl text-gray-700 mb-8">
+              <p className="text-base sm:text-xl text-gray-700 mb-8">
                 Nurturing Tomorrow's Leaders Since 1985. At Aunty Dupe Nursery and Primary School, we believe that every
                 child is a unique gift with unlimited potential. For four decades, we have been the cornerstone of
                 quality education in Ile-Oluji, Ondo State.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/admissions">
-                  <Button size="lg" className="bg-red-600 hover:bg-red-700">
+                  <Button size="lg" className="bg-red-600 hover:bg-red-700 w-full">
                     Apply for Admission
                   </Button>
                 </Link>
@@ -32,7 +32,7 @@ export default function HomePage() {
                   <Button
                     size="lg"
                     variant="outline"
-                    className="border-red-600 text-red-600 hover:bg-red-50 bg-transparent"
+                    className="border-red-600 text-red-600 hover:bg-red-50 bg-transparent w-full"
                   >
                     Schedule a Visit
                   </Button>
