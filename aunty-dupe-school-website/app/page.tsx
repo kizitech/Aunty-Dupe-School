@@ -77,8 +77,8 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-blue-100 text-blue-800 mb-4">Why Choose Aunty Dupe</Badge>
-            <h3 className="text-4xl font-bold text-gray-900 mb-6">Excellence in Every Aspect</h3>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Excellence in Every Aspect</h3>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Our comprehensive approach to education combines academic rigor with character development, preparing
               students for success in all areas of life.
             </p>
@@ -141,8 +141,8 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-purple-100 text-purple-800 mb-4">Campus Life</Badge>
-            <h3 className="text-4xl font-bold text-gray-900 mb-6">Experience Our Vibrant Community</h3>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Experience Our Vibrant Community</h3>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Take a glimpse into daily life at Aunty Dupe School through our photo gallery.
             </p>
           </div>
@@ -202,8 +202,8 @@ export default function HomePage() {
       {/* Call to Action */}
       <section className="py-20 bg-red-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h3 className="text-4xl font-bold mb-6">Ready to Join Our Family?</h3>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
+          <h3 className="text-3xl md:text-4xl font-bold mb-6">Ready to Join Our Family?</h3>
+          <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
             Give your child the foundation they deserve. Join thousands of successful alumni who started their journey
             at Aunty Dupe Nursery and Primary School.
           </p>
