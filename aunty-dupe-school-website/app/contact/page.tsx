@@ -187,7 +187,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-sm mb-4">
-                  Visionary founder with over 40 years of educational leadership experience.
+                  Visionary founder with over 40+ years of educational leadership experience.
                 </p>
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center justify-center space-x-2">

@@ -30,7 +30,7 @@ export function Navigation() {
               height={60}
               className="rounded-full"
             />
-            <div>
+            <div className="hidden lg:block">
               <h1 className="text-xl font-bold text-red-700">Aunty Dupe Nursery & Primary School</h1>
               <p className="text-xs text-gray-600">Education is Better Than Corals • Est. 1985</p>
             </div>
@@ -51,7 +51,7 @@ export function Navigation() {
 
           {/* Mobile Menu Button */}
           <Button variant="ghost" size="sm" className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
           </Button>
         </div>
 
