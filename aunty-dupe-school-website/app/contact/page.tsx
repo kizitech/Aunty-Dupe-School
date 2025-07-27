@@ -53,9 +53,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-2">Phone Numbers</h3>
                     <div className="text-gray-700 space-y-1">
-                      <p>Main Office: +234 (0) XXX XXXX</p>
-                      <p>Admissions: +234 (0) XXX XXXX</p>
-                      <p>Administrative: +234 (0) XXX XXXX</p>
+                      <p>Main Office: +234 (0) 803 472 2940</p>
+                      <p>Admissions: +234 (0) 703 969 8256</p>
+                      <p>Administrative: +234 (0) 807 269 0001</p>
                     </div>
                   </div>
                 </div>
@@ -65,12 +65,9 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-green-600" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">Email Addresses</h3>
+                    <h3 className="font-semibold text-gray-900 mb-2">Email Address</h3>
                     <div className="text-gray-700 space-y-1">
-                      <p>General: info@auntydupeschool.edu.ng</p>
-                      <p>Admissions: admissions@auntydupeschool.edu.ng</p>
-                      <p>Academic: academics@auntydupeschool.edu.ng</p>
-                      <p>Alumni: alumni@auntydupeschool.edu.ng</p>
+                      <p>General: info@auntydupeschools.com</p>
                     </div>
                   </div>
                 </div>

@@ -55,7 +55,7 @@ export default function HomePage() {
             </div>
             <div className="relative">
               <Image
-                src="/images/school-aerial-view.jpg"
+                src="/images/students-group.jpg"
                 alt="Aerial view of Aunty Dupe School"
                 width={600}
                 height={400}

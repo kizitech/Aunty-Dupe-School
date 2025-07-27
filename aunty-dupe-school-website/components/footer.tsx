@@ -67,21 +67,29 @@ export function Footer() {
                   Ile-Oluji, Ondo State
                 </span>
               </div>
-              <div className="flex items-center space-x-2">
-                <Phone className="h-4 w-4 text-red-500" />
-                <span>+234 (0) XXX XXXX</span>
+              <div className="flex items-start space-x-2">
+                <Phone className="h-4 w-4 text-red-500 mt-1" />
+                <div className="flex flex-col space-y-1">
+                  <span>+234 (0) 803 472 2940</span>
+                  <span>+234 (0) 703 969 8256</span>
+                  <span>+234 (0) 807 269 0001</span>
+                </div>
               </div>
+
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-red-500" />
-                <span>info@auntydupeschool.edu.ng</span>
+                <span>info@auntydupeschools.com</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400 text-sm">© 2024 Aunty Dupe Nursery and Primary School. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">
+            © {new Date().getFullYear()} Aunty Dupe Nursery and Primary School. All rights reserved.
+          </p>
         </div>
+
       </div>
     </footer>
   )

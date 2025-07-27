@@ -381,8 +381,9 @@ export default function AdmissionsPage() {
                   Speak directly with our admissions team for immediate assistance and to schedule your visit.
                 </p>
                 <div className="space-y-2">
-                  <p className="font-semibold">Main Office: +234 (0) XXX XXXX</p>
-                  <p className="font-semibold">Admissions: +234 (0) XXX XXXX</p>
+                  <p className="font-semibold">Main Office: +234 (0) 803 472 2940 </p>
+                  <p className="font-semibold">Admissions: +234 (0) 703 969 8256 </p>
+                  <p className="font-semibold">Administrative: +234 (0) 807 269 0001 </p>
                   <p className="text-sm text-gray-600">
                     Monday - Friday: 8:00 AM - 4:00 PM
                     <br />
@@ -400,8 +401,7 @@ export default function AdmissionsPage() {
               <CardContent>
                 <p className="text-gray-700 mb-4">Send us your questions or request information packets via email.</p>
                 <div className="space-y-2">
-                  <p className="font-semibold">admissions@auntydupeschool.edu.ng</p>
-                  <p className="font-semibold">info@auntydupeschool.edu.ng</p>
+                  <p className="font-semibold">info@auntydupeschools.com</p>
                   <p className="text-sm text-gray-600">
                     We respond to all inquiries within 24 hours during business days.
                   </p>
@@ -417,13 +417,15 @@ export default function AdmissionsPage() {
                   Schedule Campus Visit
                 </Button>
               </Link>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-blue-600 bg-transparent"
-              >
-                Download Application Form
-              </Button>
+              <Link href="/contact">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-white text-white hover:bg-white hover:text-blue-600 bg-transparent"
+                >
+                  Request for Application Form
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
