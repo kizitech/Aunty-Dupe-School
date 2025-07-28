@@ -9,12 +9,12 @@ export default function ProgramsPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-green-50 to-green-100 py-20">
+      <section className="bg-gradient-to-r from-green-50 to-green-100 py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <Badge className="bg-green-600 text-white mb-4">Our Programs</Badge>
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">Comprehensive Educational Programs</h1>
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Comprehensive Educational Programs</h1>
+            <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto">
               From nursery to primary education, we provide a holistic learning experience that combines academic
               excellence with character development, preparing students for lifelong success.
             </p>
@@ -23,7 +23,7 @@ export default function ProgramsPage() {
       </section>
 
       {/* Main Programs */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Nursery Program */}
@@ -144,12 +144,12 @@ export default function ProgramsPage() {
       </section>
 
       {/* Curriculum Approach */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-purple-100 text-purple-800 mb-4">Our Approach</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Holistic Educational Philosophy</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Holistic Educational Philosophy</h2>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Our unique educational approach combines traditional values with innovative teaching methods to develop
               well-rounded individuals.
             </p>
@@ -199,12 +199,12 @@ export default function ProgramsPage() {
       </section>
 
       {/* Co-Curricular Activities */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-orange-100 text-orange-800 mb-4">Beyond Academics</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Co-Curricular Activities</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Co-Curricular Activities</h2>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Our comprehensive co-curricular program helps students discover their talents and develop important life
               skills outside the classroom.
             </p>
@@ -280,11 +280,11 @@ export default function ProgramsPage() {
       </section>
 
       {/* Daily Schedule */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-indigo-100 text-indigo-800 mb-4">Daily Life</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">A Typical School Day</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">A Typical School Day</h2>
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -344,10 +344,10 @@ export default function ProgramsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-green-600 text-white">
+      <section className="py-12 md:py-20 bg-green-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Enroll Your Child?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Enroll Your Child?</h2>
+          <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
             Give your child the comprehensive education they deserve. Our programs are designed to nurture every aspect
             of your child's development.
           </p>

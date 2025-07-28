@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-red-50 to-red-100 py-10 md:py-20">
+      <section className="bg-gradient-to-r from-red-50 to-red-100 py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>

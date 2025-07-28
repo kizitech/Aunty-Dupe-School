@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-10 md:py-20">
+      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <Badge className="bg-blue-600 text-white mb-4">About Us</Badge>
@@ -21,7 +21,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story */}
-      <section className="py-10 md:py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -59,7 +59,7 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership */}
-      <section className="py-10 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-purple-100 text-purple-800 mb-4">Leadership Team</Badge>
@@ -255,7 +255,7 @@ export default function AboutPage() {
       </section>
 
       {/* Achievements Overview */}
-      <section className="py-10 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10 md:mb-16">
             <Badge className="bg-yellow-100 text-yellow-800 mb-4">Our Impact</Badge>
