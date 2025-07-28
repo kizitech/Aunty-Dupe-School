@@ -30,7 +30,7 @@ export default function AdmissionsPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Choose the Right Program</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto">
             <Card className="border-l-4 border-l-blue-500">
               <CardHeader>
                 <CardTitle className="text-xl text-blue-600">Nursery/Creche Program</CardTitle>
@@ -43,7 +43,7 @@ export default function AdmissionsPage() {
                     alt="Nursery students"
                     width={400}
                     height={200}
-                    className="rounded-lg w-full h-32 object-cover"
+                    className="rounded-lg w-full h-44 md:h-56 lg:h-64 object-cover"
                   />
                 </div>
                 <ul className="space-y-2 text-sm text-gray-700">
@@ -82,7 +82,7 @@ export default function AdmissionsPage() {
                     alt="Primary students"
                     width={400}
                     height={200}
-                    className="rounded-lg w-full h-32 object-cover"
+                    className="rounded-lg w-full h-44 md:h-56 lg:h-64 object-cover"
                   />
                 </div>
                 <ul className="space-y-2 text-sm text-gray-700">
