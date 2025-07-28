@@ -39,7 +39,7 @@ export default function AdmissionsPage() {
               <CardContent>
                 <div className="mb-4">
                   <Image
-                    src="/images/students-group-20.jpg"
+                    src="/images/students-group.jpg"
                     alt="Nursery students"
                     width={400}
                     height={200}
