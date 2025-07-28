@@ -164,12 +164,12 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-purple-50 to-purple-100 py-20">
+      <section className="bg-gradient-to-r from-purple-50 to-purple-100 py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <Badge className="bg-purple-600 text-white mb-4">Photo Gallery</Badge>
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">Capturing Moments of Excellence</h1>
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Capturing Moments of Excellence</h1>
+            <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto">
               Explore life at Aunty Dupe Nursery and Primary School through our comprehensive photo gallery. From daily
               classroom activities to special events, see what makes our school community special.
             </p>
@@ -199,7 +199,7 @@ export default function GalleryPage() {
       {/* Gallery Grid */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
             {filteredImages.map((image, index) => (
               <Card
                 key={index}

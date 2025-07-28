@@ -10,12 +10,12 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-gray-50 to-gray-100 py-20">
+      <section className="bg-gradient-to-r from-gray-50 to-gray-100 py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <Badge className="bg-gray-600 text-white mb-4">Contact Us</Badge>
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">Get in Touch With Us</h1>
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Get in Touch With Us</h1>
+            <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto">
               We welcome your inquiries and look forward to hearing from you. Whether you're a prospective parent,
               current family member, or community partner, we're here to help.
             </p>
@@ -24,9 +24,9 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Information */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12">
+      <section className="py-12 md:py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-8">
             {/* Contact Details */}
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-8">Contact Information</h2>
@@ -157,12 +157,12 @@ export default function ContactPage() {
       </section>
 
       {/* Leadership Team */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-blue-100 text-blue-800 mb-4">Leadership Team</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Meet Our Leaders</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Meet Our Leaders</h2>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Our experienced leadership team is always available to discuss your child's educational journey.
             </p>
           </div>
@@ -256,7 +256,7 @@ export default function ContactPage() {
       </section>
 
       {/* Visit Us */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -319,7 +319,7 @@ export default function ContactPage() {
       </section>
 
       {/* Directions */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-purple-100 text-purple-800 mb-4">Location & Directions</Badge>
