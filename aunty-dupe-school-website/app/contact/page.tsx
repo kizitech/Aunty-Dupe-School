@@ -167,7 +167,7 @@ export default function ContactPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             <Card className="text-center">
               <CardHeader>
                 <div className="mx-auto mb-4">
@@ -176,7 +176,7 @@ export default function ContactPage() {
                     alt="Proprietress"
                     width={150}
                     height={150}
-                    className="rounded-full mx-auto"
+                    className="rounded-full mx-auto min-h-56 border object-cover"
                   />
                 </div>
                 <CardTitle className="text-lg">Evangelist Chief Mrs. Phebean Modupe Ogunsusi</CardTitle>
@@ -204,7 +204,7 @@ export default function ContactPage() {
                     alt="Head Teacher"
                     width={150}
                     height={150}
-                    className="rounded-full mx-auto"
+                    className="rounded-full mx-auto min-h-56 border object-cover"
                   />
                 </div>
                 <CardTitle className="text-lg">Mrs. Akintunde Abimbola</CardTitle>
@@ -232,7 +232,7 @@ export default function ContactPage() {
                     alt="Bursar"
                     width={150}
                     height={150}
-                    className="rounded-full mx-auto"
+                    className="rounded-full mx-auto min-h-56 border object-cover"
                   />
                 </div>
                 <CardTitle className="text-lg">School Bursar</CardTitle>
@@ -261,7 +261,7 @@ export default function ContactPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="bg-green-100 text-green-800 mb-4">Visit Our Campus</Badge>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Experience Our Learning Environment</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Experience Our Learning Environment</h2>
               <p className="text-gray-700 mb-6">
                 We strongly encourage prospective families to visit our campus to experience our learning environment
                 firsthand. Campus visits provide the best opportunity to understand our educational approach, meet our
@@ -321,12 +321,12 @@ export default function ContactPage() {
       {/* Directions */}
       <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-16">
             <Badge className="bg-purple-100 text-purple-800 mb-4">Location & Directions</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">How to Find Us</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">How to Find Us</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto">
             <Card>
               <CardHeader>
                 <CardTitle>From Ondo Town</CardTitle>
@@ -356,7 +356,7 @@ export default function ContactPage() {
             </Card>
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center mt-4 md:mt-12">
             <Card className="max-w-2xl mx-auto">
               <CardHeader>
                 <CardTitle>Landmarks & Public Transportation</CardTitle>
