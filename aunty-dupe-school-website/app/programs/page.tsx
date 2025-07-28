@@ -32,8 +32,8 @@ export default function ProgramsPage() {
                 <div className="flex items-center space-x-3 mb-4">
                   <Heart className="h-8 w-8 text-blue-500" />
                   <div>
-                    <CardTitle className="text-2xl">Nursery/Creche Program</CardTitle>
-                    <CardDescription className="text-lg">Ages 2-5 years</CardDescription>
+                    <CardTitle className="text-xl md:text-2xl">Nursery/Creche Program</CardTitle>
+                    <CardDescription className="text-base md:text-lg">Ages 2-5 years</CardDescription>
                   </div>
                 </div>
               </CardHeader>
@@ -91,8 +91,8 @@ export default function ProgramsPage() {
                 <div className="flex items-center space-x-3 mb-4">
                   <BookOpen className="h-8 w-8 text-red-500" />
                   <div>
-                    <CardTitle className="text-2xl">Primary School Program</CardTitle>
-                    <CardDescription className="text-lg">Ages 6-12 years</CardDescription>
+                    <CardTitle className="text-xl md:text-2xl">Primary School Program</CardTitle>
+                    <CardDescription className="text-base md:text-lg">Ages 6-12 years</CardDescription>
                   </div>
                 </div>
               </CardHeader>
