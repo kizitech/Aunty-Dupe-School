@@ -40,11 +40,11 @@ export default function ProgramsPage() {
               <CardContent>
                 <div className="mb-6">
                   <Image
-                    src="/images/students-group-20.jpg"
+                    src="/images/students-group.jpg"
                     alt="Nursery students"
                     width={500}
                     height={300}
-                    className="rounded-lg w-full h-48 object-cover"
+                    className="rounded-lg w-full h-48 md:h-60 lg:h-72 object-cover object-top"
                   />
                 </div>
 
@@ -103,7 +103,7 @@ export default function ProgramsPage() {
                     alt="Primary students"
                     width={500}
                     height={300}
-                    className="rounded-lg w-full h-48 object-cover"
+                    className="rounded-lg w-full h-48 md:h-60 lg:h-72 object-cover object-top"
                   />
                 </div>
 
