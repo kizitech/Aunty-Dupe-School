@@ -5,9 +5,11 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import { usePathname } from "next/navigation"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
+  const pathname = usePathname()
 
   const navItems = [
     { href: "/", label: "Home" },
@@ -38,15 +40,19 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="text-gray-700 hover:text-red-600 font-medium transition-colors"
-              >
-                {item.label}
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const isActive = pathname === item.href
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`font-medium transition-colors ${isActive ? "text-red-600 font-semibold" : "text-gray-700 hover:text-red-600"
+                    }`}
+                >
+                  {item.label}
+                </Link>
+              )
+            })}
           </nav>
 
           {/* Mobile Menu Button */}
@@ -59,16 +65,20 @@ export function Navigation() {
         {isOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-gray-200 pt-4">
             <div className="flex flex-col space-y-2">
-              {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="text-gray-700 hover:text-red-600 font-medium py-2 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {navItems.map((item) => {
+                const isActive = pathname === item.href
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`py-2 font-medium transition-colors ${isActive ? "text-red-600 font-semibold" : "text-gray-700 hover:text-red-600"
+                      }`}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )
+              })}
             </div>
           </nav>
         )}
