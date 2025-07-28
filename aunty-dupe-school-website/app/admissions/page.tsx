@@ -9,12 +9,12 @@ export default function AdmissionsPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-20">
+      <section className="bg-gradient-to-r from-blue-50 to-blue-100 py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <Badge className="bg-blue-600 text-white mb-4">Admissions</Badge>
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">Join Our Family of Excellence</h1>
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Join Our Family of Excellence</h1>
+            <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto">
               We welcome families who share our commitment to educational excellence and character development. Our
               admission process is designed to ensure that prospective students will thrive in our academic environment.
             </p>
@@ -23,11 +23,11 @@ export default function AdmissionsPage() {
       </section>
 
       {/* Programs Overview */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-16">
             <Badge className="bg-green-100 text-green-800 mb-4">Available Programs</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Choose the Right Program</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Choose the Right Program</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -113,19 +113,19 @@ export default function AdmissionsPage() {
       </section>
 
       {/* Application Process */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-purple-100 text-purple-800 mb-4">Application Process</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Simple Steps to Join Us</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Simple Steps to Join Us</h2>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Our straightforward application process is designed to be supportive and informative for families.
             </p>
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              <div className="flex items-start space-x-6 p-6 bg-white rounded-lg shadow-sm">
+            <div className="space-y-4 md:space-y-8">
+              <div className="flex flex-col md:flex-row items-start gap-4 md:gap-6 p-4 md:p-6 bg-white rounded-lg shadow-sm">
                 <div className="bg-blue-100 p-4 rounded-full flex-shrink-0">
                   <Calendar className="h-8 w-8 text-blue-600" />
                 </div>
@@ -144,7 +144,7 @@ export default function AdmissionsPage() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-6 p-6 bg-white rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row items-start gap-4 md:gap-6 p-4 md:p-6 bg-white rounded-lg shadow-sm">
                 <div className="bg-green-100 p-4 rounded-full flex-shrink-0">
                   <FileText className="h-8 w-8 text-green-600" />
                 </div>
@@ -162,7 +162,7 @@ export default function AdmissionsPage() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-6 p-6 bg-white rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row items-start gap-4 md:gap-6 p-4 md:p-6 bg-white rounded-lg shadow-sm">
                 <div className="bg-yellow-100 p-4 rounded-full flex-shrink-0">
                   <Users className="h-8 w-8 text-yellow-600" />
                 </div>
@@ -181,7 +181,7 @@ export default function AdmissionsPage() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-6 p-6 bg-white rounded-lg shadow-sm">
+              <div className="flex flex-col md:flex-row items-start gap-4 md:gap-6 p-4 md:p-6 bg-white rounded-lg shadow-sm">
                 <div className="bg-purple-100 p-4 rounded-full flex-shrink-0">
                   <CheckCircle className="h-8 w-8 text-purple-600" />
                 </div>
@@ -205,11 +205,11 @@ export default function AdmissionsPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-20 bg-white">
+      <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-16">
             <Badge className="bg-orange-100 text-orange-800 mb-4">Requirements</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Admission Requirements</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Admission Requirements</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -281,12 +281,12 @@ export default function AdmissionsPage() {
       </section>
 
       {/* Fees Information */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="bg-green-100 text-green-800 mb-4">Investment in Excellence</Badge>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">School Fees & Financial Information</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">School Fees & Financial Information</h2>
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               We believe quality education is one of the most important investments families can make in their
               children's future.
             </p>
@@ -360,11 +360,11 @@ export default function AdmissionsPage() {
       </section>
 
       {/* Contact for Admissions */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-12 md:py-20 bg-blue-600 text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-6">Ready to Begin the Application Process?</h2>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6">Ready to Begin the Application Process?</h2>
+            <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
               Contact our admissions team today to schedule your campus visit and begin your child's journey toward
               educational excellence.
             </p>
