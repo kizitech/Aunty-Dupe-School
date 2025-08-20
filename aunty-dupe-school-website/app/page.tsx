@@ -1,9 +1,57 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { BookOpen, Users, Trophy, Heart, Star, ArrowRight } from "lucide-react"
+import { Trophy, Star, BookOpen, Users, Globe, Heart, ArrowRight, Award, Lightbulb } from "lucide-react";
 import Image from "next/image"
 import Link from "next/link"
+import Slideshow from "@/components/Slideshow"
+
+
+const slides = [
+  {
+    src: "/images/students-group.jpg",
+    alt: "Happy students at Aunty Dupe School",
+    text: "Award-Winning Institution",
+    icon: <Trophy className="h-5 w-5 text-yellow-500" />,
+  },
+  {
+    src: "/images/slide-img1.jpg",
+    alt: "Focused students in classroom",
+    text: "Excellence in Academics",
+    icon: <Star className="h-5 w-5 text-blue-500" />,
+  },
+  {
+    src: "/images/slide-img2.jpg",
+    alt: "Students studying with books",
+    text: "Strong Reading Culture",
+    icon: <BookOpen className="h-5 w-5 text-green-600" />,
+  },
+  {
+    src: "/images/slide-img3.jpg",
+    alt: "Group of students working together",
+    text: "Teamwork & Collaboration",
+    icon: <Users className="h-5 w-5 text-purple-600" />,
+  },
+  {
+    src: "/images/slide-img4.jpg",
+    alt: "Student with globe during geography class",
+    text: "Global Perspective",
+    icon: <Globe className="h-5 w-5 text-teal-600" />,
+  },
+  {
+    src: "/images/slide-img5.jpg",
+    alt: "Student receiving recognition award",
+    text: "Celebrating Achievements",
+    icon: <Award className="h-5 w-5 text-orange-500" />,
+  },
+  {
+    src: "/images/slide-img6.jpg",
+    alt: "Student showcasing creativity",
+    text: "Inspiring Innovation",
+    icon: <Lightbulb className="h-5 w-5 text-pink-500" />,
+  },
+];
+
 
 export default function HomePage() {
   return (
@@ -54,19 +102,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative">
-              <Image
-                src="/images/students-group.jpg"
-                alt="Aerial view of Aunty Dupe School"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-2xl border-4 border-red-600 mx-auto"
-              />
-              <div className="absolute -bottom-6 -left-[-8%] bg-white p-4 rounded-lg shadow-lg">
-                <div className="flex items-center space-x-2">
-                  <Trophy className="h-4 w-4 md:h-6 md:w-6 text-yellow-500" />
-                  <span className="text-sm md:text-base font-medium md:font-semibold">Award-Winning Institution</span>
-                </div>
-              </div>
+              <Slideshow slides={slides} />
             </div>
           </div>
         </div>
